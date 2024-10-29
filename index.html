@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Giới thiệu Thành viên</title>
+</head>
+<body>
+    <h1>Đội ngũ của chúng tôi</h1>
+    <div class="team">
+        <img src="C:\Users\Admin\Music\img\z5030669815062_1ebab9d0bed64b4bcc1314f417ae1217.jpg" alt="Thành viên 1" class="avatar" onclick="showInfo('member1')">
+        <img src="C:\Users\Admin\Music\img\z5030669804779_c06d72d088f4ecb0f245f010d8989cb8.jpg" alt="Thành viên 2" class="avatar" onclick="showInfo('member2')">
+        <img src="image/z5030669815062_1ebab9d0bed64b4bcc1314f417ae1217.jpg" alt="Thành viên 3" class="avatar" onclick="showInfo('member3')">
+        <img src="images/avatar4.jpg" alt="Thành viên 4" class="avatar" onclick="showInfo('member4')">
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2 id="member-name"></h2>
+            <p id="member-role"></p>
+            <p id="member-description"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

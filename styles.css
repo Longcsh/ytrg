@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('image/bac.jpg'); /* Thay 'background.jpg' bằng đường dẫn đến hình nền của bạn */
+    background-size: cover; /* Làm cho hình nền bao phủ toàn bộ */
+    background-position: center;
+    color: #fff; /* Màu chữ trắng để nổi bật trên nền tối */
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #fff; /* Màu tiêu đề trắng */
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.avatar:hover {
+    transform: scale(1.1);
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+p {
+    color: #fff; /* Màu chữ cho các đoạn văn */
+}
